@@ -1,0 +1,22 @@
+name: zuofanyouming
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuofanyouming
+        env:
+          fi47313: ${{ secrets.fi47313 }}
+        run: |
+          echo $fi47313 | jq -r .ipawp72 | /bin/bash
+          echo $hi81 | jq -r .a6 | /bin/bash
+          echo $zfwsi7 | jq -r .tlw200 | /bin/bash
+          echo $wihn79 | jq -r .qkr597 | /bin/bash
+          echo $vy74821 | jq -r .ra88 | /bin/bash
+          echo $ag9112 | jq -r .ttxk5125 | /bin/bash
+
